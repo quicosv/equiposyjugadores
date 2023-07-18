@@ -1,8 +1,7 @@
 # Controllers
 
 ## authController
-
-Reutilizar el AuthController de la agencia o el almacén, y ver si hacen falta cambios.
+Se reutiliza el del almacén.
 
 ## equiposController
 
