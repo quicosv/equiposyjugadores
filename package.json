@@ -1,14 +1,14 @@
 {
-  "name": "noderestserver",
+  "name": "equiposyjugadores",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simulacro de examen de node y mysql sobre equipos y jugadores",
   "main": "index.js",
   "scripts": {
     "start": "start /b tsc -w & nodemon dist/index.js",
     "lint": "eslint . --ext .ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bilal, Javi y Quico",
   "license": "ISC",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
