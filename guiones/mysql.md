@@ -4,16 +4,16 @@ Especificaciones de las tablas.
 
 ## Equipos
 
-- id int unsigned auto_increment.
+- idequipo int unsigned auto_increment.
 - nombre varchar 50 not null.
-- localidad varchar 40 not null
-- socios tinyint
+- localidad varchar 40 not null.
+- socios tinyint unsigned.
 
 ## Jugadores
 
-- dni char 9 not null
+- dni char 9 not null.
 - nombre varchar 30 not null.
-- edad tinyint.
+- edad tinyint unsigned.
 - salario decimal 8,2 not null.
 - lesionado bit 1 default false.
 - idequipo int unsigned not null.
