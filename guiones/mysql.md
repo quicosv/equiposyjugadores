@@ -35,3 +35,9 @@ Especificaciones de las tablas.
 - idrol int unsigned not null.
 - descripcion varchar 13.
 - primary key idrol.
+
+---
+
+Ahora sigue por los [modelos][modelos].
+
+[modelos]: modelos.md
