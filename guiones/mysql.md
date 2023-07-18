@@ -7,7 +7,8 @@ Especificaciones de las tablas.
 - idequipo int unsigned auto_increment.
 - nombre varchar 50 not null.
 - localidad varchar 40 not null.
-- socios tinyint unsigned.
+- socios int unsigned.
+- primary key idequipo.
 
 ## Jugadores
 
@@ -15,7 +16,7 @@ Especificaciones de las tablas.
 - nombre varchar 30 not null.
 - edad tinyint unsigned.
 - salario decimal 8,2 not null.
-- lesionado bit 1 default false.
+- lesionado bit 1 default 0.
 - idequipo int unsigned not null.
 - primary key dni.
 - foreign key del id equipo con el id de la tabla equipos.
