@@ -22,4 +22,15 @@ Especificaciones de las tablas.
 
 ## Usuarios
 
+- idusuario int unsigned not null.
+- email varchar 75 not null.
+- password varchar 1000 not null.
+- token varchar 500 not null.
+- roles_idrol int unsigned
+- primary key idusuario.
+
 ## Roles
+
+- idrol int unsigned not null.
+- descripcion varchar 13.
+- primary key idrol.
