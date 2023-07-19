@@ -1,8 +1,24 @@
 # Mysql
 
-Especificaciones de las tablas.
+## Organización de los scripts
 
-## Equipos
+Hay que crear un archivo para la creación de la base de datos y uno por cada tabla que se vaya a crear.
+
+### Archivo de la base de datos
+
+1. Borrará la base de datos si existe.
+1. Creará la base de datos.
+1. Cambiará la codificación a utf-8.
+
+### El archivo de cada tabla
+
+1. Borrará la tabla si existe.
+1. creará la tabla de acuerdo con su especificación.
+1. Insertará datos en la tabla si procede.
+
+## Especificaciones de las tablas.
+
+### Equipos
 
 - idequipo int unsigned auto_increment.
 - nombre varchar 50 not null.
@@ -10,7 +26,7 @@ Especificaciones de las tablas.
 - socios int unsigned.
 - primary key idequipo.
 
-## Jugadores
+### Jugadores
 
 - dni char 9 not null.
 - nombre varchar 30 not null.
@@ -21,7 +37,7 @@ Especificaciones de las tablas.
 - primary key dni.
 - foreign key del id equipo con el id de la tabla equipos.
 
-## Usuarios
+### Usuarios
 
 - idusuario int unsigned not null.
 - email varchar 75 not null.
@@ -30,14 +46,16 @@ Especificaciones de las tablas.
 - roles_idrol int unsigned
 - primary key idusuario.
 
-## Roles
+### Roles
 
 - idrol int unsigned not null.
 - descripcion varchar 13.
 - primary key idrol.
 
+## Ejecución en consola
+
+Asegúrate de hacer chcp 65001 en consola antes de entrar a mysql para que funcionen las vocales acentuadas y las eñes.
+
 ---
 
-Ahora sigue por los [modelos][modelos].
-
-[modelos]: modelos.md
+[Ir al índice](indice.md)
