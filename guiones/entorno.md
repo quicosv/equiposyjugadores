@@ -8,10 +8,16 @@ Crearemos el servidor partiendo del almacén.
 - Crear la carpeta helpers.
 - Crear la carpeta models.
 - Crear la carpeta routes.
+- Copiar authController.ts en la carpeta controllers.
+- Copiar usuariosController.ts en la carpeta controllers.
 - Copiar la carpeta database en la raíz.
 - copiar generarJWT.ts en helpers.
 - Copiar la carpeta middlewares en la raíz.
+- Copiar rol.ts en la carpeta models.
+- Copiar usuario.ts en la carpeta models.
 - Copiar la carpeta public.
+- Copiar routerAuth.ts en la carpeta routes.
+- Copiar routerUsuarios.ts en la carpeta routes.
 - Copiar .env en la raíz.
 - Copiar .eslintrc en la raíz.
 - Copiar index.ts en la raíz.

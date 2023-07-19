@@ -5,3 +5,5 @@
 1. [Crear los modelos.](modelos.md)
 1. [Programar los helpers.](helpers.md)
 1. [Hacer los controladores.](controladores.md)
+1. [Crear las rutas](rutas.md)
+1. [Modificar index.ts](index.md)

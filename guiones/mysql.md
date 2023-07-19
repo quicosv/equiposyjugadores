@@ -20,37 +20,47 @@ Hay que crear un archivo para la creación de la base de datos y uno por cada ta
 
 ### Equipos
 
-- idequipo int unsigned auto_increment.
+- idequipo int unsigned auto_increment primary key.
 - nombre varchar 50 not null.
 - localidad varchar 40 not null.
 - socios int unsigned.
-- primary key idequipo.
 
 ### Jugadores
 
-- dni char 9 not null.
+- dni char 9 not null primary key.
 - nombre varchar 30 not null.
 - edad tinyint unsigned.
 - salario decimal 8,2 not null.
 - lesionado bit 1 default 0.
 - idequipo int unsigned not null.
-- primary key dni.
 - foreign key del id equipo con el id de la tabla equipos.
 
-### Usuarios
+### Usuarios y roles
 
-- idusuario int unsigned not null.
-- email varchar 75 not null.
-- password varchar 1000 not null.
-- token varchar 500 not null.
-- roles_idrol int unsigned
-- primary key idusuario.
+Recuperar las instrucciones de creación e inserción de la base de datos de la agencia.
 
-### Roles
+## A tener en cuenta
 
-- idrol int unsigned not null.
-- descripcion varchar 13.
-- primary key idrol.
+### Codificación
+
+La instrucción que cambia la codificación de la base de datos a utf-8 es:
+
+`ALTER DATABASE agencia CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;`
+
+### En la creación de las tablas
+
+Entre el cerrar paréntesis del create table y el punto y coma de fin de instrucción hay que poner esto.
+
+`ENGINE = INNODB`
+
+### Recordatorio de relaciones
+
+Después del último campo se pone una coma y luego va:
+
+```mysql
+index(elCampoDeEstaTabla),
+foreign key (elCampoDeEstaTabla) references laOtraTabla(elCampoDeLaOtraTabla)
+```
 
 ## Ejecución en consola
 
