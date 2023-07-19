@@ -1,9 +1,6 @@
 # Controllers
 
-## authController
-Se reutiliza el del almacén.
-
-Para el resto de controladores se hacen las operaciones CRUD (consultar, insertar, actualizar y eliminar).
+Se hacen las operaciones CRUD (consultar, insertar, actualizar y eliminar).
 
 ## Funciones de los modelos
 
@@ -25,3 +22,7 @@ En la misma función que usemos para encontrar registros, entre las llaves se po
 - una propiedad model con el modelo con el que queremos hacer la relación.
 - as y el nombre que le vamos a dar entre comillas.
 - La propiedad required a true.
+
+---
+
+[Ir al índice](indice.md)
