@@ -16,7 +16,7 @@ Hay que crear un archivo para la creación de la base de datos y uno por cada ta
 1. creará la tabla de acuerdo con su especificación.
 1. Insertará datos en la tabla si procede.
 
-## Especificaciones de las tablas.
+## Especificaciones de las tablas
 
 ### Equipos
 
