@@ -2,7 +2,7 @@ drop table if exists jugadores;
 
 -- Tabla jugadores
 create table jugadores (
-		dni char(9) primary key,
+		dni char(9) not null primary key,
 	nombre varchar(30) not null,
 		edad tinyint unsigned,
 	salario decimal(8, 2),
