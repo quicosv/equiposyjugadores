@@ -18,4 +18,4 @@ En la carpeta models metemos un archivo ts por cada tabla:
 
 ---
 
-[Ir al índice](indice.md
+[Ir al índice](indice.md)
