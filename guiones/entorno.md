@@ -41,4 +41,4 @@ Crearemos el servidor partiendo del almacén.
 
 ---
 
-[Ir al índice](index.md)
+[Ir al índice](indice.md)
