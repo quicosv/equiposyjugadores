@@ -38,3 +38,7 @@ Crearemos el servidor partiendo del almacén.
 
 - En la variable DB_NAME tiene que estar el nombre de la base de datos con la que vas a trabajar.
 - En la variable DB_PASSWORD tiene que estar la contraseña con la que accedes a mysql.
+
+---
+
+[Ir al índice](index.md)
