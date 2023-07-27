@@ -1,5 +1,13 @@
 # Controllers
 
+## Importación de express
+
+Hay que copiar a mano la importación de request y response, porque visual studio code no la autoimporta. La línea 1 de cada controller debe ser la siguiente:
+
+`import { Request, Response } from 'express';`
+
+## Objetivos de las funciones a desarrollar
+
 Se hacen las operaciones CRUD (consultar, insertar, actualizar y eliminar).
 
 ## Funciones de los modelos
