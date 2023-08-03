@@ -2,10 +2,10 @@
 
 En la carpeta models metemos un archivo ts por cada tabla:
 
-- equipos.ts
-- jugadores.ts
-- usuarios.ts
-- roles.ts
+- equipo.ts
+- jugador.ts
+- usuario.ts
+- rol.ts
 
 ## Notas
 
