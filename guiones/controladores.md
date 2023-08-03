@@ -37,6 +37,10 @@ En la misma función que usemos para encontrar registros, entre las llaves se po
 - as y el nombre que le vamos a dar entre comillas.
 - La propiedad required a true.
 
+## authController
+
+Si necesitamos actualizar alguna propiedad cuando se hace login en el objeto del update sólo se pasa lo que cambia.
+
 ---
 
 [Ir al índice](indice.md)
