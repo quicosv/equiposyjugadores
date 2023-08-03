@@ -23,6 +23,12 @@ Se hacen las operaciones CRUD (consultar, insertar, actualizar y eliminar).
 
 Dentro de las funciones que usamos para encontrar registros se puede poner entre llaves la palabra where, dos puntos y un objeto con las condiciones.
 
+Una de las opciones es Op, que es un conjunto de opciones de sequelize que incluye cosas como between o like. Supongamos que queremos hacer un between entre min y max. Sería:
+
+`[Op.between]: [parseFloat(min), parseFloat(max)]`
+
+En lugar de borrar o actualizar una factura previamente encontrada, podemos remitirnos directamente al modelo y restringir las condiciones con un where.
+
 ## inner join
 
 En la misma función que usemos para encontrar registros, entre las llaves se pone include, dos puntos y un array que contendrá un objeto con:
