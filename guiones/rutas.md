@@ -21,6 +21,7 @@ La ruta se crea con `nombreEnrutador.verbo()`. Los parámetros que van entro los
 
 1. Usar check si viene en el body de la petición y param si viene en la ruta.
 1. Usar el método withMessage para lanzar el error.
+1. Si procede proteger las rutas con token hay que poner el validarJWT antes de los checks para que compruebe primero si viene o no el token.
 
 ---
 
