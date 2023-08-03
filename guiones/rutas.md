@@ -17,6 +17,11 @@ La ruta se crea con `nombreEnrutador.verbo()`. Los parámetros que van entro los
 - Aquí la dirección será relativa porque nos habrá redirigido el index.
 - Si queremos que el usuario pase el contenido de una variable en la ruta ponemos `:variable`.
 
+## Notas de los middlewares
+
+1. Usar check si viene en el body de la petición y param si viene en la ruta.
+1. Usar el método withMessage para lanzar el error.
+
 ---
 
 [Ir al índice](indice.md)
