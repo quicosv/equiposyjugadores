@@ -47,18 +47,11 @@ La instrucción que cambia la codificación de la base de datos a utf-8 es:
 
 `ALTER DATABASE agencia CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;`
 
-### En la creación de las tablas
-
-Entre el cerrar paréntesis del create table y el punto y coma de fin de instrucción hay que poner esto.
-
-`ENGINE = INNODB`
-
 ### Recordatorio de relaciones
 
 Después del último campo se pone una coma y luego va:
 
 ```mysql
-index(elCampoDeEstaTabla),
 foreign key (elCampoDeEstaTabla) references laOtraTabla(elCampoDeLaOtraTabla)
 ```
 
